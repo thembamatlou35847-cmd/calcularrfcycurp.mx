@@ -1,0 +1,13 @@
+function generateCURP() {
+  const name = document.getElementById("name").value.toUpperCase();
+  const father = document.getElementById("father").value.toUpperCase();
+  const mother = document.getElementById("mother").value.toUpperCase();
+
+  const curp =
+    father[0] +
+    father.match(/[AEIOU]/)[0] +
+    mother[0] +
+    name[0];
+
+  document.getElementById("result").innerText = curp;
+}
