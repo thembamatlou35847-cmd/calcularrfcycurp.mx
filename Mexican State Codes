@@ -1,0 +1,5 @@
+const states = {
+  "Ciudad de México": "DF",
+  "Jalisco": "JC",
+  "Nuevo León": "NL"
+};
