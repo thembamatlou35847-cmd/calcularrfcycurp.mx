@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RFC & CURP Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>RFC & CURP Calculator</h1>
+
+<input id="firstName" placeholder="First Name">
+<input id="fatherName" placeholder="Father Last Name">
+<input id="motherName" placeholder="Mother Last Name">
+
+<input id="birthDate" type="date">
+
+<select id="gender">
+<option value="">Gender</option>
+<option value="H">Male</option>
+<option value="M">Female</option>
+</select>
+
+<button onclick="generate()">Generate</button>
+
+<div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
